@@ -21,7 +21,7 @@ PROJECT_DIR = path.abspath(path.dirname(__file__))
 
 long_description = open("README.md").read()
 
-install_requirements = ["Django>=2.1"]
+install_requirements = ["Django>=1.11"]
 
 setup(
     name="django-deprecate-fields",
@@ -41,6 +41,7 @@ setup(
         "Intended Audience :: Developers",
         "Environment :: Web Environment",
         "Framework :: Django",
+        "Framework :: Django :: 1.11",
         "Framework :: Django :: 2.1",
         "Framework :: Django :: 2.2",
         "Framework :: Django :: 3.0",
